@@ -23,7 +23,8 @@ namespace IFC_Regenerate
             Autodesk.Revit.ApplicationServices.Application app = uiapp.Application;
             Autodesk.Revit.DB.Document doc = uidoc.Document;
 
-            string filePath = @"D:\PTT\05. Download\Document Test\project.ifc";
+            //string filePath = @"D:\PTT\05. Download\Document Test\project.ifc";
+            string filePath = @"D:\Download\Document Test\project.ifc";
             List<IfcElement> ifcElements = ifcFileAnalyst(filePath);
             assignLevel(ifcElements, filePath, doc);
             using (Transaction regenerateTrans = new Transaction(doc, "Ifc Regenerate"))
