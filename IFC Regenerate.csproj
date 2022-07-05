@@ -138,6 +138,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DB.cs" />
     <Compile Include="Extension.cs" />
     <Compile Include="IFCRegenerate_GeoGym.cs" />
     <Compile Include="IFCRegenerate.cs" />
